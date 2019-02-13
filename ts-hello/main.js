@@ -1,12 +1,21 @@
-var Pointku = /** @class */ (function () {
-    function Pointku() {
+var Pointku1 = /** @class */ (function () {
+    function Pointku1() {
     }
-    Pointku.prototype.draw = function () {
+    Pointku1.prototype.draw = function () {
+        console.log('X' + this.a + ', Y' + this.b);
     };
-    Pointku.prototype.getDistance = function (another) {
+    Pointku1.prototype.getDistance = function (another) {
     };
-    return Pointku;
+    return Pointku1;
 }());
+// class Pointku{
+//     a: number;
+//     b: number;
+//     draw(){
+//     }
+//     getDistance(another: Pointku){
+//     }
+// }
 // let log = function pesan(){
 //     console.log(pesan);
 // }

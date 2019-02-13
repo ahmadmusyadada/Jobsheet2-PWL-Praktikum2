@@ -1,15 +1,29 @@
-class Pointku{
+class Pointku1{
     a: number;
     b: number;
 
     draw(){
-
+        console.log('X' + this.a + ', Y' + this.b);
     }
 
-    getDistance(another: Pointku){
+    getDistance(another: Pointku1){
         
     }
 }
+
+
+// class Pointku{
+//     a: number;
+//     b: number;
+
+//     draw(){
+
+//     }
+
+//     getDistance(another: Pointku){
+
+//     }
+// }
 
 // let log = function pesan(){
 //     console.log(pesan);
