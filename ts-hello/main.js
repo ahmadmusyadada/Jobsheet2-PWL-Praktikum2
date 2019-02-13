@@ -1,10 +1,19 @@
-var log = function pesan() {
-    console.log(pesan);
-};
-var doLog = function (pesan) {
-    console.log(pesan);
-};
-var doLog1 = function (pesan) { return console.log(pesan); };
+var Pointku = /** @class */ (function () {
+    function Pointku() {
+    }
+    Pointku.prototype.draw = function () {
+    };
+    Pointku.prototype.getDistance = function (another) {
+    };
+    return Pointku;
+}());
+// let log = function pesan(){
+//     console.log(pesan);
+// }
+// let doLog = (pesan) => {
+//     console.log(pesan);
+// }
+// let doLog1 = (pesan) => console.log(pesan);
 // let pesan;
 // pesan = 'abc';
 // let percobaan = (<string>pesan).endsWith('c');

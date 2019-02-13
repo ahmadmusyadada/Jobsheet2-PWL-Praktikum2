@@ -1,12 +1,25 @@
-let log = function pesan(){
-    console.log(pesan);
+class Pointku{
+    a: number;
+    b: number;
+
+    draw(){
+
+    }
+
+    getDistance(another: Pointku){
+        
+    }
 }
 
-let doLog = (pesan) => {
-    console.log(pesan);
-}
+// let log = function pesan(){
+//     console.log(pesan);
+// }
 
-let doLog1 = (pesan) => console.log(pesan);
+// let doLog = (pesan) => {
+//     console.log(pesan);
+// }
+
+// let doLog1 = (pesan) => console.log(pesan);
 
 
 // let pesan;
