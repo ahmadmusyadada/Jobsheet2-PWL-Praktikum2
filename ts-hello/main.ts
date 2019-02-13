@@ -11,6 +11,9 @@ class Pointku1{
     }
 }
 
+let coins: Pointku1
+coins.draw();
+
 
 // class Pointku{
 //     a: number;

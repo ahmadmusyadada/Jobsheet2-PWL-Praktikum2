@@ -8,6 +8,8 @@ var Pointku1 = /** @class */ (function () {
     };
     return Pointku1;
 }());
+var coins;
+coins.draw();
 // class Pointku{
 //     a: number;
 //     b: number;
